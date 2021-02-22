@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+            integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Zemoga Test</title>
+    </head>
+    <body>
+        <!-- Header (Menu) -->
+        <header class="container">
+            <div class="menu">
+                <a href="index.html" class="menu-brand">Rule of Thumb.</a>
+                <nav>
+                    <ul class="menu-items">
+                        <li><a href="/coming-soon.html">Past Trials</a></li>
+                        <li><a href="/coming-soon.html">How it works</a></li>
+                        <li><a href="/coming-soon.html">Login / Sign Up</a></li>
+                        <li>
+                            <a href=""><span class="fa fa-search"></span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="hero-banner">
+            <div class="container">
+                <div class="hero-banner_card">
+                    <p class="hero-banner_card--title">
+                        What your opinion on <br />
+                        <span>Pope Francis?</span>
+                    </p>
+                    <p class="hero-banner_card--excerpt">
+                        He's talking though on clergy sexual abuse, but is he
+                        just anohter papal pervert protector? (thumbs down) or a
+                        true pedophile punishing pontiff? (thumbs up)
+                    </p>
+                    <a href="/#" class="hero-banner_card--link"><i class="fab fa-wikipedia-w"></i> More information</i></a>
+                    <p class="hero-banner_card--veredict">What's your veredict?</p>
+                    <div class="hero-banner_card--results">
+                      <div class="hero-banner_card--results_good">
+                          <span class="fas fa-thumbs-up"></span>
+                      </div>
+                      <div class="hero-banner_card--results_bad">
+                          <span class="fas fa-thumbs-down"></span>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="container-fluid closing-box">
+                <div class="closing-box_title"><p>Closing in</p></div>
+                <div class="closing-box_counter"><span>22 </span>days</div>
+            </div>
+        </section>
+
+        <!-- Message Box -->
+        <section>
+            <div class="message-box container">
+                <div class="message-box_title">
+                    Speak out. Be heard. <br />
+                    <span>Be counted</span>
+                </div>
+                <div class="message-box_info">
+                    Rule of Thumb is a crowd sourced court of public opinion
+                    where anyone and everyone can speak out and speak freely.
+                    It’s easy: You share your opinion, we analyze and put the
+                    data in a public report.
+                </div>
+                <div class="message-box_close">X</div>
+            </div>
+        </section>
+
+        <!-- Rulings Section -->
+        <section class="container vote-section">
+            <h2 class="rulings-title">Vote</h2>
+            <div class="rulings-container"></div>
+            <template id="app">
+                <div class="ruling-box">
+                    <span class="ruling-box_thumb fas"></span>
+                    <h3 class="ruling-box_title"></h3>
+                    <p class="ruling-box_date">
+                        1 month ago <span class="ruling-box_category"></span>
+                    </p>
+                    <p class="ruling-box_excerpt"></p>
+                    <p class="ruling-box_thanks hide-elements">
+                        Thanks for voting!
+                    </p>
+                    <button class="btn btn-vote_again hide-elements">
+                        Vote again
+                    </button>
+                    <div class="ruling-box_vote">
+                        <ul id="voteOption">
+                            <li
+                                class="btn-vote positive-vote fas fa-thumbs-up"
+                            ></li>
+                            <li
+                                class="btn-vote negative-vote fas fa-thumbs-down"
+                            ></li>
+                        </ul>
+                        <button class="btn ruling-box_vote--btn">
+                            Vote now
+                        </button>
+                    </div>
+                    <div class="ruling-box_results">
+                        <div class="ruling-box_results--good">
+                            <span class="fas fa-thumbs-up"></span
+                            ><span class="positive_qty"></span>
+                        </div>
+                        <div class="ruling-box_results--bad">
+                            <span class="fas fa-thumbs-down"></span>
+                            <span class="negative_qty"></span>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </section>
+        <!-- Banner CTA -->
+        <div class="container banner-cta">
+            <p class="banner-cta_title">
+                Is there anyone else you would want us to add?
+            </p>
+            <a href="/coming-soon.html" class="banner-cta_btn">Submit a Name</a>
+        </div>
+        <!-- Footer Section -->
+        <footer class="container footer-box">
+            <!-- Footer Links -->
+            <ul class="footer-box_items">
+                <li><a href="/coming-soon.html">Terms and Conditions</a></li>
+                <li><a href="/coming-soon.html">Privacy Policy</a></li>
+                <li><a href="/coming-soon.html">Contact Us</a></li>
+            </ul>
+            <!-- Footer Social Media -->
+            <ul class="footer-box_social">
+                <li>Follow us</li>
+                <li>
+                    <a href="https://www.facebook.com/"><span class="fab fa-facebook-square"></span></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/"><span class="fab fa-twitter"></span></a>
+                </li>
+            </ul>
+        </footer>
+
+        <!-- <script src="js/main.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+        <script src="js/template.js"></script>
+        <script src="js/animations.js"></script>
+    </body>
+</html>

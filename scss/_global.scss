@@ -1,0 +1,42 @@
+/**************** 
+GLOBAL STYLES
+****************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Lato", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container-fluid {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.clear {
+    clear: both;
+}
+.btn {
+    width: 100px;
+    max-width: 100px;
+    background: none;
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    border: 1px solid #fff;
+    transition: all 0.3s ease 0s;
+    &:hover {
+        background-color: #000;
+        border-color: #000;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,37 @@
+.menu {
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 42px;
+    //Menu Logo
+    &-brand {
+        cursor: pointer;
+        margin-right: auto;
+        color: #fff;
+        font-size: 32px;
+    }
+    //Menu Links
+    &-items {
+        list-style: none;
+        li {
+            display: inline-block;
+            margin-right: 55px;
+            font-size: 16px;
+            font-weight: 300;
+            &:nth-child(4) {
+                margin-right: 0px;
+            }
+            a {
+                color: #fff;
+                transition: all 0.3s ease 0s;
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}
